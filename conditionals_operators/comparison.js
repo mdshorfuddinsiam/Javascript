@@ -1,0 +1,17 @@
+console.log(10 < 20);
+console.log(30 < 20);
+console.log(10 > 20);
+console.log(30 > 20);
+console.log('30' > 20);
+console.log(10 == 20);
+console.log(10 == 10);
+console.log(10 == 10.99);
+console.log('10' == 10);
+console.log('10' === 10);
+console.log(10 <= 20);
+console.log(10 >= 45);
+console.log('10' <= 10);
+console.log(10 != 20);
+console.log(10 != 10);
+console.log('10' != 10);
+console.log('10' !== 10);

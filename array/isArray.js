@@ -8,5 +8,8 @@ console.log(Array.isArray(cars));
 console.log(Array.isArray(fullName));
 console.log(Array.isArray(age));
 
+// join(), concate(), slice(), splice()
+
+
 
 

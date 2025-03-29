@@ -5,3 +5,10 @@ console.log(numbers);
 console.log(numbers.includes('12'));
 console.log(numbers.includes(12));
 console.log(numbers.includes(33));
+
+// if(numbers.includes('12')){
+if(numbers.includes(12)){
+    console.log('Found!!');
+}else{
+    console.log('Not found!!');
+}

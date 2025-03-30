@@ -87,3 +87,35 @@ for(let i=1; i<=20; i++){
     }
 }
 console.log('Total Sum : ' + total);
+
+// Break
+for(let i=1; i<=50; i++){
+    console.log('break : '+i);
+    if(i === 5){
+        break;
+    }
+}
+
+// Continue
+for(let i=1; i<=5; i++){
+    if(i === 3){
+        continue;
+    }
+    console.log('continue : '+i);
+}
+
+// Continue
+for(let i=1; i<=15; i++){
+    if(i%2 === 0){
+        continue;
+    }
+    console.log('continue (odd): '+i);
+}
+
+// Continue
+for(let i=1; i<=15; i++){
+    if(i%2 === 1){
+        continue;
+    }
+    console.log('continue (even): '+i);
+}

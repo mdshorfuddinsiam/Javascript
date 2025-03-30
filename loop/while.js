@@ -48,3 +48,35 @@ while(n > 0){
     console.log(n);
     n--;
 }
+
+// break
+let i = 1;
+while(i < 50){
+    console.log('break : '+i);
+    if(i === 10){
+        break;
+    }
+    i++;
+}
+
+// continue
+let x = 5;
+while(x > 0){
+    if(x === 3){
+        x--;
+        continue;
+    }
+    console.log('continue : '+x);
+    x--;
+}
+
+// 5 dara bevajjo
+let y = 1;
+while(y <= 50){
+    if(y % 5 !== 0){
+        y++;
+        continue;
+    }
+    console.log('Divisor (5) : '+y);
+    y++;
+}

@@ -7,5 +7,5 @@ for(var num of numbers){
 var fruits = ['Apple', 'Grape', 'Guava', 'Orange', 'Mango'];
 console.log(numbers);
 for(var fruit of fruits){
-    console.log(fruit);
+    // console.log(fruit);
 }

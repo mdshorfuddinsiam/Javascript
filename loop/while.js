@@ -41,3 +41,10 @@ while(num3 <= 20){
     }
     num3++;
 }
+
+// decrement
+let n = 10;
+while(n > 0){
+    console.log(n);
+    n--;
+}

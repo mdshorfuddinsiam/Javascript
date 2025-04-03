@@ -15,3 +15,9 @@ console.log(income);
 // bracket notation ---> third bracket diye property access kora hoy
 console.log(person['name']);
 console.log(person['age']);
+console.log('-------------');
+
+// // -------- problem (dot notation) -------
+// console.log(person.'pro languages');    // error
+// console.log(person.pro languages);    // error
+console.log(person['pro languages']);

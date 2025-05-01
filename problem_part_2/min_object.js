@@ -6,17 +6,35 @@ const phones = [
     {name:'One Plus', price:40000, camera:'48mp', color:'Light Gray'}
 ]
 
+// function getMinPrice(phones){
+//     // console.log(phones[0].price);
+//     // console.log(phones);
+//     let min = phones[0];
+//     for(const phone of phones){
+//         if(phone.price < min.price){
+//             min = phone;
+//         }
+//     }
+//     return min;
+// }
+
+
+// -------- using (for in) loop ---------
 function getMinPrice(phones){
-    // console.log(phones[0].price);
-    // console.log(phones);
     let min = phones[0];
-    for(const phone of phones){
-        if(phone.price < min.price){
-            min = phone;
+    for(const phone in phones){
+        // console.log(phone);
+        // console.log(phone.price);
+        // console.log(phones[phone].price);
+        // console.log(min.price);
+        if(phones[phone].price < min.price){
+            min = phones[phone];
         }
+        // console.log(min.price); 
     }
     return min;
 }
+// ---------------------------------------
 
 const chipestPhone = getMinPrice(phones);
 console.log('Get cheapest phone : ', chipestPhone);
